@@ -1,0 +1,127 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    text-align: relative;
+}
+header
+.navbar{
+    text-align: left;  
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    margin: 5;
+    padding: 5;
+    color: #333;
+    background: url('imageb.jpg') no-repeat center fixed; 
+    background-size: cover;
+    text-align: center;
+
+    header, footer {
+        background: #f700ff;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        font-weight: bold;
+}
+marquee{
+    font-size: small;
+}
+footer {
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 0;
+    background: #f700ff;
+    color: #050505;
+    
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+.slider {
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slides img {
+    width: 100%;
+    border: 0;
+    flex-shrink: 0;
+}
+.slider-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.prev, .next {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+}
+    .Catalogue {
+        background-color: none;
+        padding: 20px;
+        border-radius: 5px;
+        
+    .flex-container {
+      display: flex;
+      justify-content:normal;
+      align-items: right; 
+      flex-wrap: wrap; 
+      gap: 1px; 
+    }
+    
+    .flex-container img {
+        flex: 1 1 30px; 
+        max-width: 30%; 
+        height: 30px; 
+
+        .box {
+            height: 50px;
+            margin-bottom: 20px;
+          }
+          .box-sm {
+            max-width: 600px;
+            font-family: 'Times New Roman', sans-serif;
+            font-size: 12px;
+        }
+          }
+          .box-md {
+            min-width: 601px; 
+            max-width: 1024px;
+            font-family: 'Arial', sans-serif;
+            font-size: 14px;
+          }
+          .box-lg {
+            min-width: 1025px
+            font-family: 'Arial', sans-serif;
+            .content {
+                padding: 20px;
+                text-align: center;
+                font-size: 16px;
+            }
+            
+           
