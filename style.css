@@ -9,6 +9,9 @@ header{
   padding: 0px;
   text-align: center;
 }
+title{
+    text-align: center;
+}
 header
 .navbar{
    text-align: center;
