@@ -7,7 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
-  <div><title>QUEENSLAND NAIL PARLOR</title></div>
+  <div>
+    <title>QUEENSLAND NAIL PARLOR</title>
+  </div>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
@@ -77,25 +79,48 @@
         and innovation sets us apart, making us the go-to destination for all your nail care needs.</p>
         </section>
 
-       <br>
-       <section>
-        <h5><b>TRENDING DESIGNS</b></h5>
-        <div class="slideshow">
-          <div class="slide">
-            <img src="Nail1.jpg" style="width: 100px; height: 100px;"alt="Nails!">
+        <br>
+        <section id="TrendingDesigns" class="trending-designs">
+          <h5><b>TRENDING DESIGNS</b></h5>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Nail1.jpg" class="d-block w-100" alt="Nails!" style="width: 50px; height: 100px;">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Manicure</h5>
+                  <p>Starting from Kes 300</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Nail2.jpg" class="d-block w-100" alt="Nails!" style="width: 100px; height: 100px;">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Pedicure</h5>
+                  <p>Starting from Kes 300</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Nail3.jpg" class="d-block w-20" alt="Nails!" style="width: 100px; height: 100px;">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Nail Art</h5>
+                  <p>Starting from Kes 600</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <div class="slide">
-            <img src="Nail2.jpg" style="width: 100px; height: 100px;"alt="Nails!">
-          </div>
-          <div class="slide">
-            <img src="Nail3.jpg" style="width: 100px; height: 100px;"alt="Nails!">
-          </div>
-          <div class="slide">
-            <img src="Nail4.jpg" style="width: 100px; height: 100px;"alt="Nails!">
-          </div>
-        </div>
-      </section>
-
+        </section>
       <h5><b>Our Philosophy</b></h5>
       <p></p>At Queensland Nail Parlor, we believe that every detail counts. This belief drives our commitment to
       providing premium services in a serene and luxurious environment.
