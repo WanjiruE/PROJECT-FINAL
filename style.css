@@ -6,17 +6,20 @@
     box-sizing: border-box;
 }
 header{
-    padding: 1rem 0;
+  padding: 0px;
+  text-align: center;
 }
 header
 .navbar{
-   text-align: absolute;
+   text-align: center;
+}
+.navbar-brand{
+  text-align: center;
 }
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center
 }
 
 nav ul li {
@@ -32,16 +35,16 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: #575757;
-    border-radius: 4px;
+    background: #d84cc5;
+    border-radius: 0px;
 }
 
 nav ul li .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: #dd6bce;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(235, 232, 232, 0.2);
     z-index: 1;
     top: 100%;
     left: 0;
@@ -50,19 +53,17 @@ nav ul li .dropdown-content {
 nav ul li .dropdown-content a {
     color: #fff;
     padding: 12px 16px;
-    text-decoration: none;
     display: block;
     text-align: left;
 }
 
 nav ul li .dropdown-content a:hover {
-    background-color: #575757;
+    background-color: none;
 }
 
 nav ul li:hover .dropdown-content {
     display: block;
 }
-
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.5;
@@ -80,14 +81,15 @@ body {
         text-align: center;
         font-weight: bold;
 }
-    .slideshow-container {
+    .slideshow {
   max-width: 100px;
-  position: relative;
+  position: inline
   margin: auto;
+  marquee: 
 }
 
 .mySlides {
-  display: none;
+  display: inline-flexbox;
 }
 
 .prev, .next {
@@ -126,9 +128,13 @@ body {
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
   position: absolute;
   top: 0;
+  display: -ms-inline-flexbox;
+  justify-content: space-between;
+  background-color: none;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .dot {
@@ -165,10 +171,10 @@ footer {
 .navbar-brand {
     font-size: 24px;
     font-weight: bold;
-    text-align: right;
+    text-align: center;
 }
 
-
+}
 .slider {
     width: 80%;
     max-width: 600px;
@@ -187,7 +193,7 @@ footer {
     flex-shrink: 0;
 }
 .slider-buttons {
-    position: absolute;
+    position:relative
     top: 50%;
     width: 100%;
     display: inline;
@@ -195,7 +201,7 @@ footer {
     transform: translateY(-50%);
 }
 .prev, .next {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: none;
     border: none;
     color: white;
     padding: 10px;
@@ -206,10 +212,10 @@ footer {
     background-color: rgba(0, 0, 0, 0.8);
 }
 }
-    .Catalogue {
-        background-color: none;
-        padding: 20px;
-        border-radius: 5px;
+.Catalogue {
+background-color: none;
+padding: 20px;
+border-radius: 5px;
         
     .flex-container {
       display: flex;
@@ -228,25 +234,42 @@ footer {
             height: 50px;
             margin-bottom: 20px;
           }
-          .box-sm {
-            max-width: 600px;
-            font-family: 'Times New Roman', sans-serif;
-            font-size: 12px;
-        }
+          .flex-container {
+            display: flex;
+            justify-content:normal;
+            align-items: right; 
+            flex-wrap: wrap; 
+            gap: 1px; 
           }
-          .box-md {
-            min-width: 601px; 
-            max-width: 1024px;
-            font-family: 'Arial', sans-serif;
-            font-size: 14px;
-          }
-          .box-lg {
-            min-width: 1025px
-            font-family: 'Arial', sans-serif;
-            .content {
-                padding: 20px;
-                text-align: center;
-                font-size: 16px;
-            }
-            
-           
+          
+          .flex-container img {
+              flex: 1 1 30px; 
+              max-width: 30%; 
+              height: 30px; 
+          
+              .box {
+                  height: 50px;
+                  margin-bottom: 20px;
+                }
+                .box-sm {
+                  max-width: 600px;
+                  font-family: 'Times New Roman', sans-serif;
+                  font-size: 12px;
+              }
+                }
+                .box-md {
+                  min-width: 601px; 
+                  max-width: 1024px;
+                  font-family: 'Arial', sans-serif;
+                  font-size: 14px;
+                }
+                .box-lg {
+                  min-width: 1025px
+                  font-family: 'Arial', sans-serif;
+                  .content {
+                      padding: 20px;
+                      text-align: center;
+                      font-size: 16px;
+                  }
+                  
+                 
